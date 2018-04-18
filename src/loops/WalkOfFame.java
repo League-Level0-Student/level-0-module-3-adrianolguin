@@ -9,9 +9,8 @@ import org.jointheleague.graphical.robot.Robot;
 public class WalkOfFame {
 	public static void main(String[] args) {
 		
-for (int x = 0; x < 9; x++) {
-	star(50,70,100);
-	star(50,100,330);
+for (int x = 0; x < 10; x++) {
+	star(50,100 + (x*100),200);
 }
 		/** THE CHALLENGE: **/
 		/*

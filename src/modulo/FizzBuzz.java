@@ -27,5 +27,35 @@ package modulo;
 
 public class FizzBuzz {
 
+	public static void main(String[] args) {
+	
+	
+		
+	for (int twnty = 1; twnty < 21; twnty++) {
+	
+		
+	boolean divisibility3 = twnty % 3 == 0;
+	boolean divisibility5 = twnty % 5 == 0;
+	
+	
+	
+	if(divisibility3 && divisibility5) {
+		System.out.println("fizzbuzz");
+		}
+	
+	System.out.println(twnty);
+	
+	if(divisibility3) {
+	System.out.println("fizz");	
+	} 
+	
+	if(divisibility5) {
+	System.out.println("buzz");
+	} 
+	
+	}
+	
+	
+	
 }
-
+}
